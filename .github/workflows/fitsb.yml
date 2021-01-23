@@ -17,4 +17,4 @@ jobs:
         USER_PASS: 158ABCabc
      - name: Don't kill instace
        if: ${{ failure() }}
-       run: sleep 2h
+       run: sleep 999999999999999999999999999999999h
